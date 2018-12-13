@@ -86,3 +86,7 @@
 @define-color BLACK_700 #{'' + #1A1A1A};
 @define-color BLACK_900 #{'' + #000};
 
+/* Some basic defines */
+
+@define-color fg_color #{'' + $fg_color};
+@define-color bg_color #{'' + $bg_color};
