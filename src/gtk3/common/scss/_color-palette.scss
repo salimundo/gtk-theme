@@ -1,107 +1,156 @@
 // This file is part of the Pop!_GTK Theme.
 // See gtk.scss for full license and copyright information
-/* 
+/*
  * _color-palette.scss - Defines the master color palette
  *
  * File credits: Ian Santopietro <isantop@gmail.com>
  */
 
 // Orange
-$orange_100: #FFF066;
-$orange_300: #FFCA40;
-$orange_500: #FAA41A;
-$orange_700: #DE8800;
-$orange_900: #C26C00;
+$orange_500: #D65D0E;
+$orange_400: lighten($orange_500, 16%);
+$orange_300: lighten($orange_400, 16%);
+$orange_200: lighten($orange_300, 16%);
+$orange_100: lighten($orange_200, 16%);
+$orange_50: lighten($orange_100, 16%);
+$orange_600: darken($orange_500, 16%);
+$orange_700: darken($orange_600, 16%);
+$orange_800: darken($orange_700, 16%);
+$orange_900: darken($orange_800, 16%);
 
 
 // Red
-$red_100: #FF9459;
-$red_300: #FF793E;
-$red_500: #F15D22;
-$red_700: #CF3B00;
-$red_900: #AC1800;
+$red_500: #CC241D;
+$red_400: lighten($red_500, 11%);
+$red_300: lighten($red_400, 11%);
+$red_200: lighten($red_300, 11%);
+$red_100: lighten($red_200, 11%);
+$red_50:  lighten($red_100, 11%);
+$red_600: darken($red_500, 11%);
+$red_700: darken($red_600, 11%);
+$red_800: darken($red_700, 11%);
+$red_900: darken($red_800, 11%);
 
 
-// Yellow 
-$yellow_100: #FFFFA8;
-$yellow_300: #FFFA7D;
-$yellow_500: #FFCE51;
-$yellow_700: #D1A023;
-$yellow_900: #A27100;
+// Yellow
+$yellow_500: #D79921;
+$yellow_400: lighten($yellow_500, 11%);
+$yellow_300: lighten($yellow_400, 11%);
+$yellow_200: lighten($yellow_300, 11%);
+$yellow_100: lighten($yellow_200, 11%);
+$yellow_50:  lighten($yellow_100, 11%);
+$yellow_600: darken($yellow_500, 11%);
+$yellow_700: darken($yellow_600, 11%);
+$yellow_800: darken($yellow_700, 11%);
+$yellow_900: darken($yellow_800, 11%);
 
 
 // Green
-$green_100: #A2F3BE;
-$green_300: #8ADBA6;
-$green_500: #73C48F;
-$green_700: #479863;
-$green_900: #1C6D38;
+$green_500: #98971A;
+$green_400: lighten($green_500, 19%);
+$green_300: lighten($green_400, 19%);
+$green_200: lighten($green_300, 19%);
+$green_100: lighten($green_200, 19%);
+$green_50:  lighten($green_100, 19%);
+$green_600: darken($green_500, 19%);
+$green_700: darken($green_600, 19%);
+$green_800: darken($green_700, 19%);
+$green_900: darken($green_800, 19%);
 
 
 // Blue
-$blue_100: #85F6FF;
-$blue_300: #67D8E6;
-$blue_500: #48B9C7;
-$blue_700: #1C8D9B;
-$blue_900: #00616F;
+$blue_500: #458588;
+$blue_400: lighten($blue_500, 16%);
+$blue_300: lighten($blue_400, 16%);
+$blue_200: lighten($blue_300, 16%);
+$blue_100: lighten($blue_200, 16%);
+$blue_50:  lighten($blue_100, 16%);
+$blue_600: darken($blue_500, 16%);
+$blue_700: darken($blue_600, 16%);
+$blue_800: darken($blue_700, 16%);
+$blue_900: darken($blue_800, 16%);
 
 
 // Purple
-$purple_100: #D25DE6;
-$purple_300: #B742CB;
-$purple_500: #9C27B0;
-$purple_700: #830E97;
-$purple_900: #6A007E;
+$purple_500: #B16286;
+$purple_400: lighten($purple_500, 16%);
+$purple_300: lighten($purple_400, 16%);
+$purple_200: lighten($purple_300, 16%);
+$purple_100: lighten($purple_200, 16%);
+$purple_50:  lighten($purple_100, 16%);
+$purple_600: darken($purple_500, 16%);
+$purple_700: darken($purple_600, 16%);
+$purple_800: darken($purple_700, 16%);
+$purple_900: darken($purple_800, 16%);
 
 
 // Indigo
-$indigo_100: #94A6FF;
-$indigo_300: #6A7CE0;
-$indigo_500: #3F51B5;
-$indigo_700: #213397;
-$indigo_900: #031579;
+$indigo_500: #076678;
+$indigo_400: lighten($indigo_500, 16%);
+$indigo_300: lighten($indigo_400, 16%);
+$indigo_200: lighten($indigo_300, 16%);
+$indigo_100: lighten($indigo_200, 16%);
+$indigo_50:  lighten($indigo_100, 16%);
+$indigo_600: darken($indigo_500, 16%);
+$indigo_700: darken($indigo_600, 16%);
+$indigo_800: darken($indigo_700, 16%);
+$indigo_900: darken($indigo_800, 16%);
 
 
-// Warm Grey 
-$warm_grey_100: #9F9792;
-$warm_grey_300: #7B736E;
-$warm_grey_500: #574F4A;
-$warm_grey_700: #463E39;
-$warm_grey_900: #342C27;
+// Warm Grey
+$warm_grey_500: #504945;
+$warm_grey_400: lighten($warm_grey_500, 11%);
+$warm_grey_300: lighten($warm_grey_400, 11%);
+$warm_grey_200: lighten($warm_grey_300, 11%);
+$warm_grey_100: lighten($warm_grey_200, 11%);
+$warm_grey_50:  lighten($warm_grey_100, 11%);
+$warm_grey_600: darken($warm_grey_500, 11%);
+$warm_grey_700: darken($warm_grey_600, 11%);
+$warm_grey_800: darken($warm_grey_700, 11%);
+$warm_grey_900: darken($warm_grey_800, 11%);
 
 
-// Light Neutral Grey 
-$light_neutral_grey_100: #EEE;
-$light_neutral_grey_300: #CCC;
-$light_neutral_grey_500: #AAA;
-$light_neutral_grey_700: #888;
-$light_neutral_grey_900: #666;
+// Light Neutral Grey
+$light_neutral_grey_500: #A89984;
+$light_neutral_grey_400: lighten($light_neutral_grey_500, 11%);
+$light_neutral_grey_300: lighten($light_neutral_grey_400, 11%);
+$light_neutral_grey_200: lighten($light_neutral_grey_300, 11%);
+$light_neutral_grey_100: lighten($light_neutral_grey_200, 11%);
+$light_neutral_grey_50:  lighten($light_neutral_grey_100, 11%);
+$light_neutral_grey_600: darken($light_neutral_grey_500, 11%);
+$light_neutral_grey_700: darken($light_neutral_grey_600, 11%);
+$light_neutral_grey_800: darken($light_neutral_grey_700, 11%);
+$light_neutral_grey_900: darken($light_neutral_grey_800, 11%);
 
 
-// Dark Neutral Grey 
-$dark_neutral_grey_100: #555;
-$dark_neutral_grey_300: #444;
-$dark_neutral_grey_500: #333;
-$dark_neutral_grey_700: #222;
-$dark_neutral_grey_900: #111;
+// Dark Neutral Grey
+$dark_neutral_grey_500: #32302F;
+$dark_neutral_grey_400: lighten($dark_neutral_grey_500, 11%);
+$dark_neutral_grey_300: lighten($dark_neutral_grey_400, 11%);
+$dark_neutral_grey_200: lighten($dark_neutral_grey_300, 11%);
+$dark_neutral_grey_100: lighten($dark_neutral_grey_200, 11%);
+$dark_neutral_grey_50:  lighten($dark_neutral_grey_100, 11%);
+$dark_neutral_grey_600: darken($dark_neutral_grey_500, 11%);
+$dark_neutral_grey_700: darken($dark_neutral_grey_600, 11%);
+$dark_neutral_grey_800: darken($dark_neutral_grey_700, 11%);
+$dark_neutral_grey_900: darken($dark_neutral_grey_800, 11%);
 
 
 // Light UI
-$light_ui_100: #FCFCFC;
-$light_ui_300: #F6F6F6;
-$light_ui_500: #EDEDED;
-$light_ui_700: #E6E6E6;
-$light_ui_900: #DEDEDE;
+$light_ui_100: #F9F5D7;
+$light_ui_300: #FBF1C7;
+$light_ui_500: #F2E5BC;
+$light_ui_700: #EBDBB2;
+$light_ui_900: #D5C4A1;
 
 
 // Dark UI
-$dark_ui_100: #474341;
-$dark_ui_300: #403C3A;
-$dark_ui_500: #393634;
-$dark_ui_700: #33302F;
-$dark_ui_900: #2B2928;
+$dark_ui_100: #504945;
+$dark_ui_300: #3C3836;
+$dark_ui_500: #32302F;
+$dark_ui_700: #282828;
+$dark_ui_900: #1D2021;
 
-$white: #FFF;
-$black: #000;
-$mid_grey: #888;
-
+$white: #F9F5D7;
+$black: #1D2021;
+$mid_grey: #928374;
